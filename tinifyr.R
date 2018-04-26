@@ -1,9 +1,7 @@
 tinifyr <- function(file, key){
   
-  if (!require(pacman)) install.packages('pacman')
   if (!require(jsonlite)) install.packages('jsonlite')
-  
-  library(pacman)
+
   library(jsonlite)
   
   file <- paste0(dirname(file), "/", basename(file))
