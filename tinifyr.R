@@ -14,7 +14,7 @@ tinifyr <- function(file, key){
   
   response <- system(request, intern = T)
   
-  url <- jsonlite::fromJSON(response[9])$output$url
+  url <- jsonlite::fromJSON(response[length(response)])$output$url
   
   download.file(url, paste0(dirname(file), "/optimised-", basename(file))) 
   
