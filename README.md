@@ -6,7 +6,7 @@ An R function to compress an image using the TinyPNG API
 
 Head to https://tinypng.com/developers and enter your name and email to get an API key
 
-### Usage
+## Usage
 
 Call the function by passing it the file path of your image and your API key
 
