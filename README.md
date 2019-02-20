@@ -10,6 +10,8 @@ After you have done that, you should have all the files needed for the package o
 ## Installing the tinifyr package
 Once you are in the `tinifyr.Rproj` project in your R console or in an R script, you need to run the following two commands in order to install the `tinifyr` package as one of your R packages
 
+## Usage
+
 ```
 devtools::install(".")
 library('tinifyr')
