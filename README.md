@@ -3,7 +3,7 @@
 Compress your plot using Tinypng.
 
 ## Cloning the repo
-The first thing you need to do is clone this repository by running `git clone https://github.com/bbc/vjdata.tinifyr.git` in your terminal. 
+The first thing you need to do is clone this repository by running `git clone https://github.com/willdahlgreen/tinifyr.git` in your terminal. 
 
 After you have done that, you should have all the files needed for the package on your machine locally, however this does not mean the package has installed and you are not yet able to call on it in `R`. To do this, you need to go into this repo you have just cloned and open the `tinifyr.Rproj` in `R Studio`.  
 
