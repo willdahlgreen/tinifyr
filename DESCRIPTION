@@ -1,0 +1,12 @@
+Package: tinifyr
+Type: Package
+Title: Compress images using the Tinypng API
+Version: 0.2.0
+Author: Will Dahlgreen
+Maintainer: The package maintainer <william.dahlgreen@bbc.co.uk>
+Description: Compresses png images exported from R using the Tinypng API
+Imports: jsonlite
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
